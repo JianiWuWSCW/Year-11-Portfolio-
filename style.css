@@ -1,9 +1,18 @@
+
 body {
     background-color: aquamarine;
 }
 
 .project1 {
     background-color: rgb(125, 191, 229);
+
+}
+.project2 {
+    background-color: aqua;
+    
 }
 
+.development{
+    background-color: rgb(77, 132, 234);
+}
 
