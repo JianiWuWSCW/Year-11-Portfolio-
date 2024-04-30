@@ -12,9 +12,12 @@ body {
     
 }
 
-.development{
-    background-color: rgb(64, 207, 232);
+.taskdevelopment1{
+    background-color: rgb(34, 65, 133);
 }
-.characterdevelopment{
-    background-color: rgb(23, 88, 100);
+.taskdevelopment2{
+    background-color: rgb(57, 213, 240);
+}
+.taskdevelopment3{
+    background-color: rgb(37, 210, 100);
 }
