@@ -167,18 +167,31 @@
         <td>The problem for here is the code "Pass".
           In Python,In Python, the pass statement is a placeholder used when a statement is required syntactically but you do not want any code to be executed. 
           It essentially does nothing and is often used as a temporary placeholder for code that you plan to write later or as a way to create minimal classes or functions during initial development.
+          I think that's why the game can not get into next step.
         </td> 
         <td></td>
         <td><img class="output" src="test1111.png"alt=""width="900" height="200"></td>
       </tr>
 
       <tr>
-        <td>""</td> 
-        <td></td>
+        <td>And "Break" means the keyword is used to break out a loop, or a loop.
+          So I swiched their places,then deleted the "pass" code.
+          Also I added the "print("The number should bigger than 0,smaller than 1000")" after "if answer>1000 and answer smaller than 1.
+        </td> 
+        <td>And after except,I only added "print("That's not a number")".
+          It means if the user have enter something that not a number,the computer gonna reply this message.</td>
         <td><img class="output" src="test222.png"alt=""width="900" height="200"></td>
       </tr>
       <tr>
-        <td>""</td>
+        <td>For this part,the code I worte before is "if answer == "a"or"c".lower() or answer==a or c.lower():"
+          <p>Now I changed it to "if answer == "a"or answer=="c".lower() or answer==a or answer==c.lower():"</p>
+          <p>"I added the answer== after answer=="a" or and answer==a or"</p>
+          <p>For here ,I relized that the "c".lower() is just a string "c" and doesn't compare it with answer.
+            a and c are not defined variables, causing a NameError if this code is run.
+          or maybe the computer can not recognize it when we enter option "c" for this question. </p>
+
+
+        </td>
         <td></td>
         <td><img class="output" src="loop.png"alt=""width="600" height="200"></td>
       </tr>
